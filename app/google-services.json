@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "960494936925",
+    "project_id": "carbuyer-ecf0b",
+    "storage_bucket": "carbuyer-ecf0b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960494936925:android:bd0149e529430abf093eb4",
+        "android_client_info": {
+          "package_name": "com.example.carbuyer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "960494936925-p5u3g7k2ap8b1qof4jt7gib0jg426s6g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClB7jGkY-C87JschB-p6u-5Tp4_E2i91c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "960494936925-p5u3g7k2ap8b1qof4jt7gib0jg426s6g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

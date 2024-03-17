@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="1. Enter Mobile No"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/purple_700"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:hint="Phone no"
+        android:minHeight="48dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="2. Choose suitable transmission"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/purple_700"/>
+
+
+    <RadioGroup
+        android:id="@+id/rbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/manual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:minHeight="48dp"
+            android:text="Manual"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Auto"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="3. Choose Cars body type"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/purple_700"/>
+
+    <RadioGroup
+        android:id="@+id/rb2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/suv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:minHeight="48dp"
+            android:text="SUV"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/sedan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Sedan"
+            android:textSize="20dp"
+            android:textStyle="bold" />\
+        <RadioButton
+            android:id="@+id/hatch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="HatchBack"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="4. Choose fuel type for your car"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/purple_700"/>
+
+    <RadioGroup
+        android:id="@+id/rb3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/petrol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:minHeight="48dp"
+            android:text="Petrol"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/diesel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Diesel"
+            android:textSize="20dp"
+            android:textStyle="bold" />\
+        <RadioButton
+            android:id="@+id/cng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="CNG"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <RadioButton
+            android:id="@+id/electric"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:minHeight="48dp"
+            android:text="Electric"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="5. Car buying budget"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:textColor="@color/purple_700"/>
+
+        <RadioGroup
+            android:id="@+id/rb4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/under5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:minHeight="48dp"
+                android:text="under 5 lakhs"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/fivetoseven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="5-7 lakhs"
+                android:textSize="20dp"
+                android:textStyle="bold" />\
+            <RadioButton
+                android:id="@+id/seventoten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="7-10 lakhs"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <RadioButton
+                android:id="@+id/tentofif"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="10-15 lakhs"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <RadioButton
+                android:id="@+id/fiftotfif"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="15-25 lakhs"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <RadioButton
+                android:id="@+id/tfif"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="above 25 lakhs"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="6. What kind of roads will you majorly drive on? "
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:textColor="@color/purple_700"/>
+
+        <RadioGroup
+            android:id="@+id/rb5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/highway"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:minHeight="48dp"
+                android:text="Highway"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="City"
+                android:textSize="20dp"
+                android:textStyle="bold" />\
+            <RadioButton
+                android:id="@+id/bbr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Bad/Broken roads"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="7. Approximate daily driving "
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:textColor="@color/purple_700"/>
+
+        <RadioGroup
+            android:id="@+id/rb6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/ten230"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:minHeight="48dp"
+                android:text="10-30"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/thirty250"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="30-50"
+                android:textSize="20dp"
+                android:textStyle="bold" />\
+            <RadioButton
+                android:id="@+id/fif"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="50+"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="8. Maximum people travelling"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:textColor="@color/purple_700"/>
+
+        <RadioGroup
+            android:id="@+id/rb7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:minHeight="48dp"
+                android:text="2"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/tf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="3/4/5"
+                android:textSize="20dp"
+                android:textStyle="bold" />\
+            <RadioButton
+                android:id="@+id/ss"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="6/7"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </RadioGroup>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sndout"
+            android:text="Submit"
+            android:layout_gravity="center_horizontal"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+

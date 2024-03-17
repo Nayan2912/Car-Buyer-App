@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="118dp"
+        android:text="Send Suggested Car"
+        android:textColor="#0E0B0B"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/msg"
+        android:layout_width="280dp"
+        android:layout_height="149dp"
+        android:layout_below="@+id/textView1"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="105dp"
+        android:hint="Hello......,Car Choosing Application Here. The suggested car from our experts are..."
+        android:minHeight="48dp"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/snsms"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/msg"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="88dp"
+        android:minHeight="48dp"
+        android:text="Send Suggestion"
+        tools:ignore="TouchTargetSizeCheck" />
+</RelativeLayout>
